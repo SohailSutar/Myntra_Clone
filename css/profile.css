@@ -1,0 +1,149 @@
+
+.account-container{
+    height: 25%;
+    width:60%;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 10%;
+    border-bottom: 1px solid grey;
+}
+header{
+    display: flex;
+    border-bottom: 1px solid #b6b1b1;
+    height: 80px;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    background-color: #FAFBFC;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+}
+.account{
+    font-weight: 700;
+}
+.name{
+    color: grey;
+    margin-bottom: 10px;
+}
+.segment-container{
+    margin-left: 20%;
+    max-width: 15%;
+    border-right: 1px solid grey;
+}
+.segment-holder{
+    color: #282C3F;
+    /* margin-top: 10%; */
+    /* margin-bottom: ; */
+    /* padding-top: 20px;
+    padding-bottom: 20px; */
+    border-bottom: 1px solid grey;
+    max-width: 80%;
+    padding-bottom: 20px;
+}
+.segment-name1{
+    padding-top: 20px;
+    color: grey;
+}
+.segment-holder1{
+    color: #282C3F;
+    /* margin-top: 10%; */
+    /* margin-bottom: ; */
+    /* padding-top: 20px;
+    padding-bottom: 20px; */
+    /* border-bottom: 1px solid grey; */
+    max-width: 80%;
+    padding-bottom: 20px;
+}
+.segment-name{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 12px;
+    color: gray;
+}
+.profile_green_wala{
+    font-weight: 700;
+    color: #14CDA8;
+}
+.main_body_container{
+    display: flex;
+    margin-bottom: 10%;
+}
+.main_profile_container{
+    width: 45%;
+    margin-top: 1%;
+    margin-left: 1%;
+    border: 1px solid grey;
+    /* background-color: #14CDA8; */
+}
+.profile_header{
+    width: 50%;
+    height: 10%;
+    margin-top: 10%;
+    margin-left: 22%;
+    /* background-color: aliceblue; */
+}
+.profile_head{
+    padding: 4%;
+    padding-left: 0%;
+    /* text-align: center; */
+    font-size: 25px;
+    color: #282C3F;
+    font-weight: 600;
+    border-bottom: 1px solid grey;
+}
+.profile_info{
+    width: 55%;
+    height: 70%;
+    margin-left: 22%;
+    /* background-color: aliceblue; */
+    color: #282C3F;
+}
+.FullName{
+    /* margin-top: 20%; */
+    margin-right: 20.4%;
+    /* margin-bottom: 15%; */
+}
+.mob{
+    margin-right: 9%;
+}
+.mail{
+    margin-right: 25%;
+}
+.gender{
+    margin-right: 26%;
+}
+.dob{
+    margin-right: 16%;
+}
+.loc{
+    margin-right: 24%;
+}
+.alt_mob{
+    margin-right: 8%;
+}
+.hint{
+    margin-right: 20%;
+}
+.profile_division{
+    /* background-color: #14CDA8; */
+    margin-top: 5%;
+    font-size: 17px;
+}
+.edit_btn{
+    margin-top: 20%;
+}
+.btn_edit{
+    width: 100%;
+    letter-spacing: 1px;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 2px;
+    border-width: 0px;
+    padding: 10px 16px;
+    background-color: rgb(255, 63, 108);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    margin-bottom: 10%;
+}
+
